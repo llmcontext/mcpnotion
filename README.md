@@ -1,4 +1,5 @@
 # gomcp-tool-notion
+
 Notion tool for the Model Context Protocol
 
 This is a sample MCP server that uses the Notion API to retrieve the content of a Notion page.
