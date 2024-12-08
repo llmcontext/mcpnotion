@@ -4,7 +4,7 @@ go 1.23.2
 
 require (
 	github.com/jomei/notionapi v1.13.2
-	github.com/llmcontext/gomcp v0.1.0
+	github.com/llmcontext/gomcp v0.2.0
 )
 
 require (

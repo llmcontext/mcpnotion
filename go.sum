@@ -12,6 +12,8 @@ github.com/jomei/notionapi v1.13.2/go.mod h1:BqzP6JBddpBnXvMSIxiR5dCoCjKngmz5QNl
 github.com/josharian/intern v1.0.0/go.mod h1:5DoeVV0s6jJacbCEi61lwdGj/aVlrQvzHFFd8Hwg//Y=
 github.com/llmcontext/gomcp v0.1.0 h1:9zIIfADTIHYwMr9I08dVnMFMtW5RZWSV5WgGkzMSgjg=
 github.com/llmcontext/gomcp v0.1.0/go.mod h1:37qw4fmW/a+PVnC7YUosmqQU5XduOBUP4I3ln5f5yPk=
+github.com/llmcontext/gomcp v0.2.0 h1:UkJN718z0Y/0sVaNUUDYpmqmbgxO8GDeouSUMEDUUsI=
+github.com/llmcontext/gomcp v0.2.0/go.mod h1:BHEQh0hvjcY/+9OWW8lSXo8LXbOdqe7ZwISzGbeg0hc=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=
 github.com/mailru/easyjson v0.7.7/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

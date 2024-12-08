@@ -22,7 +22,6 @@ type NotionGetDocumentContext struct {
 
 // configuration for the McpToolProcessor function.
 type NotionGetDocumentConfiguration struct {
-	// the API key for the Notion client.
 	NotionToken string `json:"notionToken" jsonschema_description:"the notion token for the Notion client."`
 }
 

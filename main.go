@@ -34,5 +34,5 @@ func main() {
 
 	transport := mcp.StdioTransport()
 
-	mcp.Start("mcpnotion", "0.1.0", transport)
+	mcp.Start(transport)
 }

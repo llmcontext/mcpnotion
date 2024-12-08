@@ -1,0 +1,23 @@
+{
+    "serverInfo": {
+        "name": "gomcp-notion",
+        "version": "0.1.0"
+    },
+    "logging": {
+        "file": "<absolute path>/mcpnotion.log",
+        "level": "debug",
+        "withStderr": false
+    },
+    "prompts": {
+        "file": "<absolute path>/prompts.yaml"
+    },
+    "tools": [
+        {
+            "name": "notion",
+            "description": "Get a notion document",
+            "configuration": {
+                "notionToken": "your_notion_token_here"
+            }
+        }
+    ]
+}
