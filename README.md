@@ -83,6 +83,17 @@ After you grant authorization, Claude will show the parameters of the call and t
 ![Claude Response](./docs/claude-response.png)
 
 
+### prompts access
+
+If you want to access the prompts you have defines in your yaml file, you can access them from Claude:
+
+![Claude Prompts](./docs/claude-prompts.png)
+
+You will then have a form to fill in the arguments for the prompt.  
+
+![Claude Prompts Form](./docs/claude-prompts-form.png)
+
+
 ## Note
 
 If you also work on the MCP Go SDK itself, you can add this line to the `go.mod` file to use your local version of the SDK:
