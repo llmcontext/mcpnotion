@@ -16,7 +16,7 @@ The configuration file is a JSON file that defines the server information, loggi
 
 copy the `mcpnotion.json.sample` file to `mcpnotion.json` and edit the values:
 * set `logging.file` to the path where you want to store the log file
-* set `prompts.file` to the path to the `prompts.yaml` file
+* set `prompts.file` to the path to the `prompts.yaml` file. There is a sample file at the top of this repository.
 * set `tools.configuration.notionToken` to your Notion token
 
 ### build the server

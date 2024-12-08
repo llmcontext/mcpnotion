@@ -1,0 +1,10 @@
+prompts:
+  - name: "hello"
+    description: "Says hello"
+    arguments:
+      - name: "name"
+        description: "The name to say hello to"
+        required: true
+    prompt: >
+      Hello {{.name}}, how are you?
+      Please respond in a friendly and engaging manner.
