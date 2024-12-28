@@ -8,6 +8,9 @@ GOBIN=$(GOBASE)/bin
 # Build directory
 BUILD_DIR=./bin
 
+NOTION_TOKEN := ${NOTION_TOKEN}
+
+
 # Main build target
 all: clean build
 
@@ -42,6 +45,10 @@ vet:
 	@echo "Vetting code..."
 	@go vet ./...
 
+inspector: build
+	@echo "Running inspector..."
+	npx @modelcontextprotocol/inspector $(BUILD_DIR)/$(BINARY_NAME) -token ${NOTION_TOKEN} -level debug -debug ./debug.log
+
 # Build for multiple platforms
 build-all:
 	@echo "Building for multiple platforms..."
@@ -58,6 +65,6 @@ install: build
 
 run: build
 	@echo "Running $(BINARY_NAME)..."
-	@$(BUILD_DIR)/$(BINARY_NAME) --configFile config.json
+	@$(BUILD_DIR)/$(BINARY_NAME) -token ${NOTION_TOKEN}
 
 .PHONY: all build clean run test test-coverage fmt vet deps build-all install generate
