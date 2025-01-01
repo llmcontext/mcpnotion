@@ -5,7 +5,6 @@ import (
 	"strings"
 
 	"github.com/jomei/notionapi"
-	"github.com/llmcontext/gomcp"
 	"github.com/llmcontext/gomcp/types"
 )
 
@@ -35,7 +34,7 @@ func NotionToolInit(ctx context.Context, config *NotionToolConfiguration) (*Noti
 
 // retrieves the content of a Notion page identified by the PageId.
 func NotionGetPage(ctx context.Context, toolCtx *NotionGetDocumentContext, input *NotionGetDocumentInput, output types.ToolCallResult) error {
-	logger := gomcp.GetLogger(ctx)
+	logger := types.GetLogger(ctx)
 
 	// extract the pageId from the input
 	pageId := extractPageId(input.PageIdOrUrl)
